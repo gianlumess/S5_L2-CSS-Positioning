@@ -364,8 +364,8 @@ aside div p:last-child {
 }
 
 .turnUp {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background-color: white;
   opacity: 75%;
   border-radius: 20px;
@@ -387,8 +387,8 @@ aside div p:last-child {
 }
 
 .calendar {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background-color: white;
   opacity: 75%;
   border-radius: 20px;
@@ -410,8 +410,8 @@ aside div p:last-child {
 }
 
 .social {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background-color: white;
   opacity: 75%;
   border-radius: 20px;
@@ -432,12 +432,21 @@ aside div p:last-child {
   height: 35px;
 }
 @media screen and (min-width: 700px) {
+  .turnUp {
+    width: 80px;
+    height: 80px;
+  }
+
   .social {
+    width: 80px;
+    height: 80px;
     top: 20px;
     z-index: 1000;
   }
 
   .calendar {
+    width: 80px;
+    height: 80px;
     top: 120px;
     z-index: 1000;
   }
