@@ -19,7 +19,11 @@ hr {
 /* HEADER */
 header {
   background: rgb(0, 160, 198);
-  background: linear-gradient(180deg, rgba(0, 160, 198, 1) 0%, rgba(3, 109, 134, 1) 68%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 160, 198, 1) 0%,
+    rgba(3, 109, 134, 1) 68%
+  );
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -102,6 +106,32 @@ section {
   padding: 1.5em 1em;
   margin-bottom: 2em;
   position: relative;
+}
+
+.title span {
+  position: relative;
+  display: inline-block;
+}
+
+.title span img {
+  position: absolute;
+  top: 43px;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 80%;
+}
+
+@media screen and (min-width: 500px) {
+  .title span img {
+    top: 48px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .title span img {
+    top: 57px;
+  }
 }
 
 section h2 {
@@ -187,6 +217,7 @@ h1 + p {
   border: 4px solid #00a0c6;
   outline: 4px solid #a02571;
   padding: 3px;
+  float: left;
 }
 ul,
 ol {
@@ -329,7 +360,11 @@ aside div p:last-child {
 /* FOOTER */
 footer {
   background: rgb(53, 53, 53);
-  background: linear-gradient(0deg, rgba(53, 53, 53, 1) 0%, rgba(5, 85, 103, 1) 68%);
+  background: linear-gradient(
+    0deg,
+    rgba(53, 53, 53, 1) 0%,
+    rgba(5, 85, 103, 1) 68%
+  );
   box-shadow: 0 3px 3px #444;
   color: #f0f0f0;
   padding: 1em;
